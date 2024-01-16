@@ -1,0 +1,356 @@
+#grid-navigations {
+    display: flex;
+    justify-content: center;
+}
+
+#grid-navigations>div {
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-navigations h2 {
+    color: black;
+}
+
+#nav {
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    font-family: arial;
+    font-size: 4rem;
+    color: white;
+    background: lightblue url('https://wallpapers.com/images/featured/disney-has6vy47k75d0bzs.jpg') no-repeat center;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+
+h2 {
+    font-variant: normal;
+    font-family: arial;
+    color: gray;
+    font-size: 1.5rem;
+    text-align: center;
+    text-indent: 0.7rem;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.7rem;
+    color: gray;
+    text-transform: uppercase;
+
+
+}
+
+h3+p {
+    border: 1px;
+    border-width: thin;
+    border-color: rgb(171, 169, 169);
+    border-style: solid;
+    border-spacing: initial;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    color: rgb(127, 206, 255);
+    margin-left: 3rem;
+
+}
+
+nav :link {
+    color: black;
+}
+
+nav :hover {
+    color: yellow;
+}
+
+nav :visited {
+    color: purple;
+}
+
+form :focus {
+    color: purple;
+    background-color: lightgrey;
+
+}
+
+nav :active {
+    color: blue;
+}
+
+
+table {
+    width: 50%;
+    margin: auto;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px;
+    border-color: black;
+    border-style: solid double;
+    border-collapse: collapse;
+    caption-side: top;
+}
+
+table caption {
+    font-size: 35px;
+    border-style: solid double;
+    border-color: black;
+}
+
+th {
+    background-color: rgb(171, 208, 245);
+    font-family: arial;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+p {
+    font: italic small-caps bold 1.2em Arial, sans-serif;
+    orphans: 2;
+    widows: 2;
+}
+
+td {
+    font-family: arial;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle
+}
+
+
+td:nth-child(2) {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 17px;
+
+
+}
+
+td:nth-child(4) {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+figcaption {
+    text-align: left;
+    color: gray;
+}
+
+caption {
+    font-family: arial;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    background-image: url(https://img.freepik.com/free-vector/cinema-realistic-poster-with-illuminated-bucket-popcorn-drink-3d-glasses-reel-tickets-blue-background-with-tapes-vector-illustration_1284-77070.jpg);
+    background-repeat: repeat;
+}
+
+li {
+    list-style-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.arkaduyti.org%2Flist-style-img&psig=AOvVaw3bTW13Kd2TeW3uiLZoz1RR&ust=1705173081709000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCIizsPPG2IMDFQAAAAAdAAAAABAJ');
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+dl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.image_list ul li {
+    list-style-image: url('https://i.pinimg.com/236x/8b/2d/9e/8b2d9e0dc54b8aef2fcaed2edd9a416a.jpg');
+    background-size: 20px;
+}
+
+.image_list ol {
+    list-style: upper-roman inside;
+}
+
+
+.photo {
+    padding: 10px;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 1px solid gray;
+}
+
+.link {
+    text-decoration: underline;
+    text-shadow: none;
+    font-size: 1.8rem;
+    padding: 20px;
+    color: #000;
+}
+
+.Introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.recommendation_links {
+    background-color: rgb(111, 211, 244);
+    padding: 10px;
+    margin: 5px 10px;
+}
+
+
+.table_image {
+    width: 9rem;
+    height: auto;
+    float: left;
+}
+
+
+.image_button {
+    width: 8rem;
+    height: auto;
+}
+
+.image_button:hover {
+    transform: scale(1.2);
+}
+
+
+.trailer_button:hover {
+    transition-duration: 0.5s;
+    color: white;
+    background-color: green;
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-right: 1.2rem;
+
+}
+
+.collage_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.movie {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.movie img {
+    width: 150px;
+    height: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+    td,
+    th {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .table_image {
+        width: 12rem;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+
+    #grid-navigations {
+        display: block;
+    }
+
+    p,
+    h3 {
+        display: block;
+        width: 100%;
+    }
+
+    .image_button {
+        width: 14rem;
+    }
+
+    .image_button:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media print {
+    #about {
+        page-break-after: always;
+    }
+
+    #movies {
+        page-break-before: always;
+    }
+
+    td p {
+        page-break-inside: avoid;
+    }
+
+    table {
+        max-width: 100%;
+    }
+
+    .table_image {
+        max-width: 100%;
+        height: auto;
+        page-break-inside: avoid;
+    }
+
+}
